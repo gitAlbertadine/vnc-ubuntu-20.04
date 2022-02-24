@@ -1,7 +1,7 @@
 # vnc-ubuntu-20.04
 The best vnc server
 ```
-sudo dd if=/dev/zero of=/swapfile bs=3072 count=1048576
+sudo dd if=/dev/zero of=/swapfile bs=16384 count=1048576
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
 sudo swapon /swapfile
